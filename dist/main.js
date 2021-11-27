@@ -1,0 +1,1 @@
+document.querySelector("body").append(function(){let e=document.createElement("h1");return e.textContent="Hello World!",e}());

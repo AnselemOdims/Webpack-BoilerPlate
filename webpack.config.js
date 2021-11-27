@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    print: './src/helper.js',
+    helper: './src/helper.js',
   },
  devtool: 'inline-source-map',
  devServer: {

@@ -8,6 +8,9 @@ module.exports = {
     print: './src/helper.js',
   },
  devtool: 'inline-source-map',
+ devServer: {
+  static: './dist',
+},
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack Boilerplate',

@@ -1,6 +1,6 @@
 function component(){
   let element = document.createElement('h1');
-  element.textContent = 'Hello World!, still here'
+  element.textContent = 'Hello World!, still keeping'
   return element
 }
 
